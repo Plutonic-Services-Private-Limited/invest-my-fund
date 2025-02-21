@@ -1,0 +1,219 @@
+.hero-card {
+    background: url('/assets/hero_bg_img.png') no-repeat center center;
+     background-size: cover;
+    width: 100%;
+    padding-top: 20px;
+    height: 88vh;
+}
+
+.rating {
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    color: #FFFFFF;
+    font-size: 22px;
+    display: flex;
+}
+
+.logo-img {
+    margin-left: 11%;
+    position: relative;
+    z-index: 10;
+}
+
+.overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 88vh;
+    z-index: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.accordion {
+    --bs-accordion-border-color: transparent;
+}
+.accordion-button:focus{
+    box-shadow: none;
+}
+
+.accordion-item {
+    /* background: #f8f9fa; */
+    transition: background 0.3s ease;
+}
+
+.accordion-item:has(.accordion-button[aria-expanded="true"]){
+    background: #f8f9fa;
+}
+
+.accordion-header{
+    padding-left: 24px;
+}
+.accordion-flush > .accordion-item > .accordion-collapse{
+    background-color: #f8f9fa;
+    padding: 10px;
+}
+
+.accordion-flush .accordion-button[aria-expanded="true"] {
+    --bs-accordion-active-bg: #f8f9fa;
+    border: none;
+    --bs-accordion-active-color: #000;
+}
+
+.accordion-flush .accordion-collapse.show {
+    background-color: #f8f9fa;
+    border: none;
+}
+
+.accordion-border-color {
+    border: none;
+}
+
+.accordion-button::after {
+    position: absolute;
+    top: 20px;
+    left: -8px;
+    background-image: url("/assets/check_icon.svg");
+}
+
+.custom-collapse:not(.collapsed)::after {
+    background-image: url("/assets/check_icon.svg");
+    transform: translateY(0%);
+}
+
+.faq .accordion-button::after {
+    position: absolute;
+    top: 20px;
+    left: -8px;
+    background-image: url("/assets/faq_tick_c.svg");
+}
+
+.faq .accordion-button:not(.collapsed)::after {
+    transform: translateY(0%);
+    background-image: url("/assets/faq_ticks.svg");
+}
+
+.custom-btn {
+    background-color: #95B83E;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 40px;
+    border: none;
+}
+.custom-btn:hover {
+    background-color: #8fb13b;
+}
+
+.custom-card {
+    border-radius: 25px;
+    border: 1px solid #96b83e9f;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.custom-card img {
+    height: 160px;
+    padding: 6px 8px 0px;
+}
+.custom-card .card-body {
+    padding: 20px;
+}
+.custom-card .card-title {
+    font-weight: bold;
+    color: #222;
+}
+.custom-card .card-text {
+    color: #555;
+    line-height: 1.8;
+}
+
+/*tabs*/
+.nav-tabs .nav-link {
+    color: #414042;
+    font-weight: 400;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #414042;
+    color: #ffffff !important;
+    border-color: #414042 #414042 #fff;
+}
+
+.bg-comm {
+    background: url('/assets/background_comm.png') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.communication ::placeholder {
+    color: white;
+    opacity: 1;
+    font-size: 14px;
+}
+
+.communication input {
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
+.communication select {
+    background-color: transparent;
+    color: white;
+    font-size: 14px;
+}
+
+.communication input:active {
+    background-color: transparent;
+    color: white;
+    font-size: 14px;
+}
+
+div::-webkit-scrollbar {
+    display: none;
+}
+
+.parent-scroll {
+    overflow: hidden; 
+    height: 40vh;
+}
+
+.child-scroll {
+    overflow-y: scroll;
+    height: 100%;
+}
+
+@media (min-width: 768px) {
+    .negative-margin {
+        margin-top: -130px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-card {
+        /*height: 120vh;   */
+    }
+
+    .hero .logo-img{
+        margin-left: 10px;
+    }
+
+    .overlay {
+        /*height: 120vh;*/
+    }
+    .row {
+        margin-right: 0 !important;
+    }
+}
+
+.com-form:focus {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+
+.inputState option {
+    color: black
+}
