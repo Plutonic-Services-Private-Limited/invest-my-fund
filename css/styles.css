@@ -1,5 +1,5 @@
 .hero-card {
-    background: url('assets/hero_bg_img.png') no-repeat center center;
+    background: url('/assets/hero_bg_img.png') no-repeat center center;
      background-size: cover;
     width: 100%;
     padding-top: 20px;
@@ -74,11 +74,11 @@
     position: absolute;
     top: 20px;
     left: -8px;
-    background-image: url("assets/check_icon.svg");
+    background-image: url("/assets/check_icon.svg");
 }
 
 .custom-collapse:not(.collapsed)::after {
-    background-image: url("assets/check_icon.svg");
+    background-image: url("/assets/check_icon.svg");
     transform: translateY(0%);
 }
 
@@ -86,12 +86,12 @@
     position: absolute;
     top: 20px;
     left: -8px;
-    background-image: url("assets/faq_tick_c.svg");
+    background-image: url("/assets/faq_tick_c.svg");
 }
 
 .faq .accordion-button:not(.collapsed)::after {
     transform: translateY(0%);
-    background-image: url("assets/faq_ticks.svg");
+    background-image: url("/assets/faq_ticks.svg");
 }
 
 .custom-btn {
@@ -140,7 +140,7 @@
 }
 
 .bg-comm {
-    background: url('assets/background_comm.png') no-repeat center center;
+    background: url('/assets/background_comm.png') no-repeat center center;
     background-size: cover;
     width: 100%;
     padding-top: 20px;
