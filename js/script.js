@@ -12,9 +12,10 @@ function handleFormSubmit(formId) {
             message: document.getElementById(`${formId}_message`).value,
             page: "Contact Us"
         };
-        console.log('formData', formData);
+        const submitButton = document.getElementById(`${formId}_submit`);
+        submitButton.innerText = 'Loading...';
+        submitButton.disabled = true;
 
-        // Send data to the API
         fetch('https://investmyfunds.in/imf-api/v1/contact-us/', {
             method: 'POST',
             headers: {
@@ -24,15 +25,26 @@ function handleFormSubmit(formId) {
             },
             body: JSON.stringify(formData)
         })
-            .then(response => response.json())
-            .then(data => {
-                // Handle success
-                document.getElementById(`${formId}_responseMessage`).innerText = 'Message sent successfully!';
-                console.log(data);
+            .then(response => {
+                if (!response.ok) {
+                    const errorData =  response.json();
+                   alert("Please fill all fields.");
+                }else {
+                    alert("Submit successful");
+                    submitButton.innerText = 'Register';
+                    submitButton.disabled = false;
+                    document.getElementById(`${formId}_name`).value = '';
+                    document.getElementById(`${formId}_email`).value = '';
+                    document.getElementById(`${formId}_country`).value = '';
+                    document.getElementById(`${formId}_phone_no`).value = '';
+                    document.getElementById(`${formId}_message`).value = '';
+                    return  response.json()
+                }
+
             })
             .catch(error => {
-                // Handle error
-                console.error('Error:', error);
+                submitButton.innerText = 'Register';
+                submitButton.disabled = false;
                 document.getElementById(`${formId}_responseMessage`).innerText = 'Error sending message.';
             });
     });

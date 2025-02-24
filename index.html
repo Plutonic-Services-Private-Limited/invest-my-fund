@@ -9,6 +9,13 @@
     <!-- CSS Link -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 </head>
 <body>
 <!-- Hero Card -->
@@ -32,8 +39,8 @@
                 style=" z-index: 10; margin-top: 1%;padding:20px 10px 0 50px;"
               >
                 <div style="position: relative;">
-                  <h4 style="color: #DBFD87;">NRI Tax Nirvaan:</h4>
-                  <h2 class="mt-3" style="color: white;">Indian Tax se Moksh</h2>
+                  <h4 style="color: #DBFD87; font-size: 24px">NRI Tax Nirvaan:</h4>
+                  <h2 class="mt-3" style="color: white; font-size: 42px">Indian Tax se Moksh</h2>
                   <div
                     class="mt-4 col-12 col-md-10"
                     style="background-color: white; border-radius: 10px; padding: 10px; box-shadow: 6px 8px #95B83E;"
@@ -86,7 +93,8 @@
                         <button
                                 type="submit"
                           class="custom-btn"
-                          style=" border-radius: 10px;"
+                                id="contact1_submit"
+                          style="border-radius: 10px;"
                         >
                           Register
                         </button>
@@ -112,16 +120,16 @@
                   >
                   <div class="row justify-content-end">
                       <div class="col-12 col-md-8 ">
-                          <div class="row pt-4 pt-md-1">
-                              <div class="col-6 col-md-5 offset-0 offset-md-2">
+                          <div class="row pt-4 pt-md-1 justify-content-center">
+                              <div class="col-6 col-md-5 offset-0 offset-md-2 mx-4" style="text-align: end">
                                       <img class="d-inline p-2" src="assets/trust.svg" alt="star"/>
-                                      <p class="d-inline p-2 text-white" style="margin: 0;">4.9 Google Rating</p>
-                                  </div>
+                                      <p class="d-inline p-2 text-white" style="margin: 0; font-size: 24px">4.9 Google Rating</p>
+                              </div>
 
 
                               <div class="col-6 col-md-5">
                                   <img class="d-inline p-2" src="assets/star.svg" alt="trust">
-                                  <p class="d-inline p-2 text-white" style="margin: 0;">25+ Years Trusted Firm</p>
+                                  <p class="d-inline p-2 text-white" style="margin: 0; font-size: 24px">25+ Years Trusted Firm</p>
 
                               </div>
 
@@ -135,15 +143,15 @@
     </div>
 </div>
 <!-- NRI Taxation -->
-<div class="container mt-5">
+<div class="container mt-5 block-2">
     <div class="row py-4">
         <div class="col-12 col-md-6">
             <img src="assets/taxation_img.png" alt="Taxation" class="img-fluid">
         </div>
         <div class="col-12 col-md-6">
-            <h1 style="color: #95B83E;">NRI Taxation</h1>
-            <h2>Do I need to file taxes in India if I am an NRI?</h2>
-            <p>
+            <h1 style="color: #95B83E; font-size: 36px" class="fw-bolder">NRI Taxation</h1>
+            <h2 style="font-size: 24px" class="fw-semibold">Do I need to file taxes in India if I am an NRI?</h2>
+            <p style="font-size: 18px">
                 If you are an NRI with income in India—like rent from property, interest on bank accounts or fixed deposits, or earnings from investments—you might need to file a tax return. Filing is mandatory if your taxable income in India exceeds threshold limit in a financial year.
             </p>
 
@@ -151,47 +159,48 @@
                 <div class="accordion accordion-flush child-scroll" id="nri_taxation">
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button style="font-weight: bold;" class="accordion-button custom-collapse collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tax-collapseOne" aria-expanded="false" aria-controls="tax-collapseOne">
+                            <button style="font-weight: 600; font-size: 20px" class="accordion-button custom-collapse collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tax-collapseOne" aria-expanded="false" aria-controls="tax-collapseOne">
                                 Documents Required for Filing NRI Tax Return
                             </button>
                         </h2>
                         <div id="tax-collapseOne" class="accordion-collapse collapse" data-bs-parent="#nri_taxation">
                             <div class="accordion-body">
-                                <p><strong>PAN Card:</strong> To file returns and track taxes paid.</p>
-                                <p><strong>Bank Statements:</strong> For income or interest earned in India.</p>
-                                <p><strong>Investment Details:</strong> Like mutual funds, stocks, or property sale documents.</p>
-                                <p><strong>Passport:</strong> To verify your residential status (number of days in/out of India).</p>
-                                <p><strong>Form 16A:</strong> If TDS has been deducted from your income.</p>
-                                <p>Additional documents like property agreements or Form 26AS (tax credit statement) might also be needed.</p>
+                                <p style="font-size: 18px"><strong>PAN Card:</strong> To file returns and track taxes paid.</p>
+                                <p style="font-size: 18px"><strong>Bank Statements:</strong> For income or interest earned in India.</p>
+                                <p style="font-size: 18px"><strong>Investment Details:</strong> Like mutual funds, stocks, or property sale documents.</p>
+                                <p style="font-size: 18px"><strong>Passport:</strong> To verify your residential status (number of days in/out of India).</p>
+                                <p style="font-size: 18px"><strong>Form 16A:</strong> If TDS has been deducted from your income.</p>
+                                <p style="font-size: 18px">Additional documents like property agreements or Form 26AS (tax credit statement) might also be needed.</p>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button style="font-weight: bold;" class="accordion-button custom-collapse collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tax-collapseTwo" aria-expanded="false" aria-controls="tax-collapseTwo">
+                            <button style="font-weight: 600; font-size: 20px" class="accordion-button custom-collapse collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tax-collapseTwo" aria-expanded="false" aria-controls="tax-collapseTwo">
                                 Can I file my NRI tax return myself?
                             </button>
                         </h2>
                         <div id="tax-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#nri_taxation">
                             <div class="accordion-body">
-                                <p>Yes, you can file your NRI tax return online using the Income Tax Department's e-filing portal. However, tax laws for NRIs can be complex, especially if you claim benefits under the DTAA (Double Taxation Avoidance Agreement). Consulting a tax expert can help you avoid errors, maximize deductions, and save time.</p>
+                                <p style="font-size: 18px;">Yes, you can file your NRI tax return online using the Income Tax Department's e-filing portal. However, tax laws for NRIs can be complex, especially if you claim benefits under the DTAA (Double Taxation Avoidance Agreement). Consulting a tax expert can help you avoid errors, maximize deductions, and save time.</p>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button style="font-weight: bold;" class="accordion-button custom-collapse collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tax-collapseThree" aria-expanded="false" aria-controls="tax-collapseThree">
+                            <button style="font-weight: 600; font-size: 20px;" class="accordion-button custom-collapse collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tax-collapseThree" aria-expanded="false" aria-controls="tax-collapseThree">
                                 Deadlines for filing NRI tax returns?
                             </button>
                         </h2>
                         <div id="tax-collapseThree" class="accordion-collapse collapse" data-bs-parent="#nri_taxation">
                             <div class="accordion-body">
-                                <p>The deadline for filing your Indian income tax return is <b> July 31st </b>of the assessment year. For example, for income earned in FY 2024-25, the filing deadline is July 31, 2025. Missing the deadline could lead to penalties or loss of benefits like carry-forward of losses.</p>
+                                <p style="font-size: 18px">The deadline for filing your Indian income tax return is <b> July 31st </b>of the assessment year. For example, for income earned in FY 2024-25, the filing deadline is July 31, 2025. Missing the deadline could lead to penalties or loss of benefits like carry-forward of losses.</p>
                             </div>
                         </div>
                     </div>
                     <div class="mt-4" style="margin-left: 5%;">
-                        <button class="custom-btn">Try Now !</button>
+                        <button class="custom-btn" style="cursor: pointer"
+                                onclick="topFunction();">Try Now !</button>
                     </div>
                 </div>
             </div>
@@ -199,13 +208,13 @@
     </div>
 </div>
 <!-- Youtube video -->
-<div class="container " style="margin-top: 40px; margin-bottom: 40px;">
+<div class="container" style="margin-bottom: 50px;">
     <div class="row align-items-center">
         <div class="col-12 offset-md-2 col-md-3 mb-3">
-            <h2 class="mb-3">Why choose InvestMyFunds for NRI Services</h2>
-            <p>Watch this videos to understand, Why you should choose us team for NRI Tax Consultations</p>
+            <h2 class="mb-3 fw-semibold" style="font-size: 36px">Why choose InvestMyFunds for NRI Services</h2>
+            <p style="font-size: 20px">Watch this videos to understand, Why you should choose us team for NRI Tax Consultations</p>
         </div>
-        <div class="col-12 col-md-5">
+        <div class="col-12 col-md-5 mx-5">
             <div class="ratio ratio-16x9">
                 <iframe
                         src="https://www.youtube.com/embed/fz3eyVPm1Sg"
@@ -219,15 +228,15 @@
     </div>
 </div>
 <!-- FAQ's -->
-<div class="container mt-5">
+<div class="container mt-5 block-3">
     <div class="row py-4">
-        <div class="col-12 col-md-5 offset-md-1 offset-0">
+        <div class="col-12 col-md-5 offset-0">
             <h2 style="color: #95B83E;">FAQ's</h2>
-            <h3 class="fw-bold">Got a question,</h3>
-            <h3 class="fw-bold">Lets get you answers !</h3>
+            <h3 class="fw-semibold">Got a question,</h3>
+            <h3 class="fw-semibold">Lets get you answers !</h3>
             <img  src="assets/description_img.png" alt="Description of Image" class="img-fluid">
         </div>
-        <div class="col-12 col-md-6" style="overflow: hidden; height: 70vh;">
+        <div class="col-12 col-md-6 mx-5" style="overflow: hidden; height: 70vh;">
             <!-- Tabs Navigation -->
             <ul class="nav nav-tabs" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation">
@@ -248,7 +257,7 @@
                     <div class="accordion accordion-flush" id="faq_content">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button style="font-weight: bold;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapseOne" aria-expanded="false" aria-controls="faq-collapseOne">
+                                <button style="font-weight: 600;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapseOne" aria-expanded="false" aria-controls="faq-collapseOne">
                                     Can NRIs invest in Indian mutual funds?
                                 </button>
                             </h2>
@@ -260,7 +269,7 @@
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button style="font-weight: bold;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapseTwo" aria-expanded="false" aria-controls="faq-collapseTwo">
+                                <button style="font-weight: 600;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapseTwo" aria-expanded="false" aria-controls="faq-collapseTwo">
                                     How can UAE-based NRIs invest in mutual funds in India?
                                 </button>
                             </h2>
@@ -274,7 +283,7 @@
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button style="font-weight: bold;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapseThree" aria-expanded="false" aria-controls="faq-collapseThree">
+                                <button style="font-weight: 600;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapseThree" aria-expanded="false" aria-controls="faq-collapseThree">
                                     What are the benefits of investing in Indian mutual funds for UAE NRIs?
                                 </button>
                             </h2>
@@ -291,7 +300,7 @@
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button style="font-weight: bold;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapseFour" aria-expanded="false" aria-controls="faq-collapseFour">
+                                <button style="font-weight: 600;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapseFour" aria-expanded="false" aria-controls="faq-collapseFour">
                                     Are UAE-based NRIs subject to taxation on mutual fund investments in India?
                                 </button>
                             </h2>
@@ -308,7 +317,7 @@
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button style="font-weight: bold;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapseFive" aria-expanded="false" aria-controls="faq-collapseFive">
+                                <button style="font-weight: 600;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapseFive" aria-expanded="false" aria-controls="faq-collapseFive">
                                     Does the India-UAE DTAA (Double Taxation Avoidance Agreement) benefit UAE-based NRIs?
                                 </button>
                             </h2>
@@ -320,7 +329,7 @@
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button style="font-weight: bold;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapseSix" aria-expanded="false" aria-controls="faq-collapseSix">
+                                <button style="font-weight: 600;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapseSix" aria-expanded="false" aria-controls="faq-collapseSix">
                                     How can UAE-based NRIs maximise tax efficiency in mutual fund investments?
                                 </button>
                             </h2>
@@ -334,7 +343,7 @@
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button style="font-weight: bold;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapseSeven" aria-expanded="false" aria-controls="faq-collapseSeven">
+                                <button style="font-weight: 600;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapseSeven" aria-expanded="false" aria-controls="faq-collapseSeven">
                                     Are there any specific challenges UAE-based NRIs face in investing in Indian mutual funds?
                                 </button>
                             </h2>
@@ -348,7 +357,7 @@
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button style="font-weight: bold;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                                <button style="font-weight: 600;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
                                     What documents are required for UAE-based NRIs to complete the KYC process?
                                 </button>
                             </h2>
@@ -364,7 +373,7 @@
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button style="font-weight: bold;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapseNine" aria-expanded="false" aria-controls="faq-collapseNine">
+                                <button style="font-weight: 600;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapseNine" aria-expanded="false" aria-controls="faq-collapseNine">
                                     Why is now a good time for UAE NRIs to invest in indian mutual funds?
                                 </button>
                             </h2>
@@ -380,7 +389,7 @@
                     <div class="accordion accordion-flush" id="faq_content_2">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button style="font-weight: bold;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1-collapseOne" aria-expanded="false" aria-controls="faq-1-collapseOne">
+                                <button style="font-weight: 600;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1-collapseOne" aria-expanded="false" aria-controls="faq-1-collapseOne">
                                     Who qualifies as an NRI for investment purposes in India?
                                 </button>
                             </h2>
@@ -392,7 +401,7 @@
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button style="font-weight: bold;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1-collapseTwo" aria-expanded="false" aria-controls="faq-1-collapseTwo">
+                                <button style="font-weight: 600;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1-collapseTwo" aria-expanded="false" aria-controls="faq-1-collapseTwo">
                                     Can NRIs invest in mutual funds in India?
                                 </button>
                             </h2>
@@ -404,7 +413,7 @@
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button style="font-weight: bold;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1-collapseThree" aria-expanded="false" aria-controls="faq-1-collapseThree">
+                                <button style="font-weight: 600;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1-collapseThree" aria-expanded="false" aria-controls="faq-1-collapseThree">
                                     What types of accounts are required for NRI investments in India?
                                 </button>
                             </h2>
@@ -419,7 +428,7 @@
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button style="font-weight: bold;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1-collapseFour" aria-expanded="false" aria-controls="faq-1-collapseFour">
+                                <button style="font-weight: 600;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1-collapseFour" aria-expanded="false" aria-controls="faq-1-collapseFour">
                                     Is it mandatory for NRIs to comply with KYC norms?
                                 </button>
                             </h2>
@@ -437,7 +446,7 @@
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button style="font-weight: bold;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1-collapseFive" aria-expanded="false" aria-controls="faq-1-collapseFive">
+                                <button style="font-weight: 600;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1-collapseFive" aria-expanded="false" aria-controls="faq-1-collapseFive">
                                     What are the repatriation rules for NRI investments?
                                 </button>
                             </h2>
@@ -450,7 +459,7 @@
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button style="font-weight: bold;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-1-collapseFive" aria-expanded="false" aria-controls="flush-1-collapseFive">
+                                <button style="font-weight: 600;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-1-collapseFive" aria-expanded="false" aria-controls="flush-1-collapseFive">
                                     Are there any restrictions on sectors where NRIs can invest?
                                 </button>
                             </h2>
@@ -462,7 +471,7 @@
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button style="font-weight: bold;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1-collapseSix" aria-expanded="false" aria-controls="faq-1-collapseSix">
+                                <button style="font-weight: 600;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1-collapseSix" aria-expanded="false" aria-controls="faq-1-collapseSix">
                                     How are NRI investments taxed in India?
                                 </button>
                             </h2>
@@ -476,7 +485,7 @@
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button style="font-weight: bold;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1-collapseSeven" aria-expanded="false" aria-controls="faq-1-collapseSeven">
+                                <button style="font-weight: 600;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1-collapseSeven" aria-expanded="false" aria-controls="faq-1-collapseSeven">
                                     Can NRIs avail of tax benefits under Section 80C?
                                 </button>
                             </h2>
@@ -488,7 +497,7 @@
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button style="font-weight: bold;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1-collapseEight" aria-expanded="false" aria-controls="faq-1-collapseEight">
+                                <button style="font-weight: 600;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1-collapseEight" aria-expanded="false" aria-controls="faq-1-collapseEight">
                                     An NRIs required to file income tax returns in india?
                                 </button>
                             </h2>
@@ -500,7 +509,7 @@
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button style="font-weight: bold;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1-collapseNine" aria-expanded="false" aria-controls="faq-1-collapseNine">
+                                <button style="font-weight: 600;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1-collapseNine" aria-expanded="false" aria-controls="faq-1-collapseNine">
                                     Can NRIs invest in direct equity and bonds?
                                 </button>
                             </h2>
@@ -512,7 +521,7 @@
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button style="font-weight: bold;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1-collapseTen" aria-expanded="false" aria-controls="faq-1-collapseTen">
+                                <button style="font-weight: 600;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1-collapseTen" aria-expanded="false" aria-controls="faq-1-collapseTen">
                                     What is FACTA, and how does it impact NRI investments?
                                 </button>
                             </h2>
@@ -524,7 +533,7 @@
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button style="font-weight: bold;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1-collapseEleven" aria-expanded="false" aria-controls="faq-1-collapseEleven">
+                                <button style="font-weight: 600;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1-collapseEleven" aria-expanded="false" aria-controls="faq-1-collapseEleven">
                                     Are there any specific funds for NRIs?
                                 </button>
                             </h2>
@@ -536,7 +545,7 @@
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button style="font-weight: bold;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1-12" aria-expanded="false" aria-controls="faq-1-12">
+                                <button style="font-weight: 600;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1-12" aria-expanded="false" aria-controls="faq-1-12">
                                     Can NRIs use online platforms for investments?
                                 </button>
                             </h2>
@@ -548,7 +557,7 @@
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button style="font-weight: bold;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1-13" aria-expanded="false" aria-controls="faq-1-13">
+                                <button style="font-weight: 600;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1-13" aria-expanded="false" aria-controls="faq-1-13">
                                     What are the risks associated with NRI investments in India?
                                 </button>
                             </h2>
@@ -560,7 +569,7 @@
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button style="font-weight: bold;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1-14" aria-expanded="false" aria-controls="faq-1-14">
+                                <button style="font-weight: 600;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1-14" aria-expanded="false" aria-controls="faq-1-14">
                                     How can NRIs redeem their investments?
                                 </button>
                             </h2>
@@ -577,12 +586,12 @@
     </div>
 </div>
 <!-- Mutual Fund -->
-<div class="container mt-5">
+<div class="container mt-5 block-4">
     <div class="row py-4">
         <div class="col-12 col-md-6">
-            <h1 style="color: #95B83E;">Mutual Fund</h1>
-            <h2>Why Should NRIs Consider Investing in Mutual Funds in India?</h2>
-            <p class="py-2">
+            <h1 style="color: #95B83E; font-size: 36px" class="fw-semibold">Mutual Fund</h1>
+            <h2 style="font-size: 24px" class="fw-bold">Why Should NRIs Consider Investing in Mutual Funds in India?</h2>
+            <p class="py-2" style="font-size: 18px">
                 Investing in mutual funds is a smart way for NRIs to participate in India's growth story and build wealth over time. With seamless investment options available through NRE/NRO accounts, mutual funds offer multiple advantages. Here’s why NRIs should include them in their portfolio:
             </p>
 
@@ -590,79 +599,79 @@
                 <div class="accordion accordion-flush child-scroll" id="mutual_fund">
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button style="font-weight: bold;" class="accordion-button custom-collapse collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#mutual-fund-collapseOne" aria-expanded="false" aria-controls="mutual-fund-collapseOne">
+                            <button style="font-weight: 600; font-size: 20px" class="accordion-button custom-collapse collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#mutual-fund-collapseOne" aria-expanded="false" aria-controls="mutual-fund-collapseOne">
                                 Diversification Made Easy
                             </button>
                         </h2>
                         <div id="mutual-fund-collapseOne" class="accordion-collapse collapse" data-bs-parent="#mutual_fund">
                             <div class="accordion-body">
-                                <p>Mutual funds allow NRIs to diversify their investments across various asset classes such as equity, debt, and hybrid instruments. They also provide exposure to different sectors, reducing risk and maximizing returns.</p>
+                                <p style="font-size: 18px">Mutual funds allow NRIs to diversify their investments across various asset classes such as equity, debt, and hybrid instruments. They also provide exposure to different sectors, reducing risk and maximizing returns.</p>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button style="font-weight: bold;" class="accordion-button custom-collapse collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#mutual-fund-collapseTwo" aria-expanded="false" aria-controls="mutual-fund-collapseTwo">
+                            <button style="font-weight: 600; font-size: 20px" class="accordion-button custom-collapse collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#mutual-fund-collapseTwo" aria-expanded="false" aria-controls="mutual-fund-collapseTwo">
                                 Expert Management
                             </button>
                         </h2>
                         <div id="mutual-fund-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#mutual_fund">
                             <div class="accordion-body">
-                                <p>Professional fund managers with years of expertise manage mutual fund portfolios, ensuring informed decisions and optimal performance. Their knowledge and insights help navigate market complexities effectively.</p>
+                                <p style="font-size: 18px">Professional fund managers with years of expertise manage mutual fund portfolios, ensuring informed decisions and optimal performance. Their knowledge and insights help navigate market complexities effectively.</p>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button style="font-weight: bold;" class="accordion-button custom-collapse collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#mutual-fund-collapseThree" aria-expanded="false" aria-controls="mutual-fund-collapseThree">
+                            <button style="font-weight: 600; font-size: 20px" class="accordion-button custom-collapse collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#mutual-fund-collapseThree" aria-expanded="false" aria-controls="mutual-fund-collapseThree">
                                 Convenient and Affordable
                             </button>
                         </h2>
                         <div id="mutual-fund-collapseThree" class="accordion-collapse collapse" data-bs-parent="#mutual_fund">
                             <div class="accordion-body">
-                                <p>Investing is hassle-free, thanks to digital platforms like iNRI. NRIs can start investing with SIPs for as little as ₹5,000. The process is user-friendly and eliminates geographical barriers.</p>
+                                <p style="font-size: 18px">Investing is hassle-free, thanks to digital platforms like iNRI. NRIs can start investing with SIPs for as little as ₹5,000. The process is user-friendly and eliminates geographical barriers.</p>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button style="font-weight: bold;" class="accordion-button custom-collapse collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#mutual-fund-collapseFour" aria-expanded="false" aria-controls="mutual-fund-collapseFour">
+                            <button style="font-weight: 600; font-size: 20px" class="accordion-button custom-collapse collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#mutual-fund-collapseFour" aria-expanded="false" aria-controls="mutual-fund-collapseFour">
                                 Cost-Effecient Investment
                             </button>
                         </h2>
                         <div id="mutual-fund-collapseFour" class="accordion-collapse collapse" data-bs-parent="#mutual_fund">
                             <div class="accordion-body">
-                                <p>Compared to direct stock market investments, mutual funds are cost-efficient. While AMCs charge a small expense ratio, the associated costs are generally lower than those in equity trading, which involves transaction fees, STT, and stamp duty.</p>
+                                <p style="font-size: 18px">Compared to direct stock market investments, mutual funds are cost-efficient. While AMCs charge a small expense ratio, the associated costs are generally lower than those in equity trading, which involves transaction fees, STT, and stamp duty.</p>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button style="font-weight: bold;" class="accordion-button custom-collapse collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#mutual-fund-collapseFive" aria-expanded="false" aria-controls="mutual-fund-collapseFive">
+                            <button style="font-weight: 600; font-size: 20px" class="accordion-button custom-collapse collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#mutual-fund-collapseFive" aria-expanded="false" aria-controls="mutual-fund-collapseFive">
                                 Higher Growth Potential
                             </button>
                         </h2>
                         <div id="mutual-fund-collapseFive" class="accordion-collapse collapse" data-bs-parent="#mutual_fund">
                             <div class="accordion-body">
-                                <p>India’s booming economy offers immense growth opportunities. Equity, flexi-cap, and multi-cap mutual funds have historically delivered impressive returns over the long term, making them a lucrative choice for NRIs.</p>
+                                <p style="font-size: 18px">India’s booming economy offers immense growth opportunities. Equity, flexi-cap, and multi-cap mutual funds have historically delivered impressive returns over the long term, making them a lucrative choice for NRIs.</p>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button style="font-weight: bold;" class="accordion-button custom-collapse collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#mutual-fund-collapseSix" aria-expanded="false" aria-controls="mutual-fund-collapseSix">
+                            <button style="font-weight: 600; font-size: 20px" class="accordion-button custom-collapse collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#mutual-fund-collapseSix" aria-expanded="false" aria-controls="mutual-fund-collapseSix">
                                 Liquidity and Flexibility
                             </button>
                         </h2>
                         <div id="mutual-fund-collapseSix" class="accordion-collapse collapse" data-bs-parent="#mutual_fund">
                             <div class="accordion-body">
-                                <p>Mutual funds provide high liquidity, enabling NRIs to buy or sell units quickly. Unlike real estate or fixed deposits, mutual funds are more flexible. However, note that some funds may impose an exit load if redeemed within a specific period.</p>
+                                <p style="font-size: 18px">Mutual funds provide high liquidity, enabling NRIs to buy or sell units quickly. Unlike real estate or fixed deposits, mutual funds are more flexible. However, note that some funds may impose an exit load if redeemed within a specific period.</p>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button style="font-weight: bold;" class="accordion-button custom-collapse collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#mutual-fund-collapseSeven" aria-expanded="false" aria-controls="mutual-fund-collapseSeven">
+                            <button style="font-weight: 600;" class="accordion-button custom-collapse collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#mutual-fund-collapseSeven" aria-expanded="false" aria-controls="mutual-fund-collapseSeven">
                                 Tax Benefits
                             </button>
                         </h2>
@@ -674,7 +683,7 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button style="font-weight: bold;" class="accordion-button custom-collapse collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#mutual-fund-collapseEight" aria-expanded="false" aria-controls="mutual-fund-collapseEight">
+                            <button style="font-weight: 600;" class="accordion-button custom-collapse collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#mutual-fund-collapseEight" aria-expanded="false" aria-controls="mutual-fund-collapseEight">
                                 Regulated and Transparent
                             </button>
                         </h2>
@@ -685,7 +694,8 @@
                         </div>
                     </div>
                     <div class="mt-4" style="margin-left: 5%;">
-                        <button class="custom-btn">Try Now !</button>
+                        <button class="custom-btn" style="cursor: pointer"
+                                onclick="topFunction();">Try Now !</button>
                     </div>
                 </div>
             </div>
@@ -697,15 +707,15 @@
     </div>
 </div>
 <!-- IFSC Gift City -->
-<div class="container mt-5">
+<div class="container mt-5 block-5">
     <div class="row py-4">
         <div class="col-12 col-md-6">
             <img src="assets/ifc_gift_img.png" alt="Taxation" class="img-fluid">
         </div>
         <div class="col-12 col-md-6 ">
-            <h1 style="color: #95B83E;">IFSC Gift City</h1>
-            <h2>GIFT CITY INVESTMENT FOR NRI</h2>
-            <p class="py-2">
+            <h1 style="color: #95B83E; font-size: 36px">IFSC Gift City</h1>
+            <h2 style="font-size: 24px">GIFT CITY INVESTMENT FOR NRI</h2>
+            <p class="py-2" style="font-size: 18px">
                 Advantages Investing through Gujarat International Finance Tec-City (GIFT City) offers Non-Resident Indians (NRIs)
             </p>
 
@@ -713,68 +723,69 @@
                 <div class="accordion accordion-flush child-scroll" id="ifc-gift">
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button style="font-weight: bold;" class="accordion-button custom-collapse collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ifc-gift-collapseOne" aria-expanded="false" aria-controls="ifc-gift-collapseOne">
+                            <button style="font-weight: 600; font-size: 20px" class="accordion-button custom-collapse collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ifc-gift-collapseOne" aria-expanded="false" aria-controls="ifc-gift-collapseOne">
                                 Tax Benefits
                             </button>
                         </h2>
                         <div id="ifc-gift-collapseOne" class="accordion-collapse collapse" data-bs-parent="#ifc-gift">
                             <div class="accordion-body">
-                                <p>Income Tax Exemptions: NRIs investing in Alternative Investment Funds (AIFs) within GIFT City can benefit from tax exemptions. If the investment fund deducts and remits income tax at the source, the investor is exempt from filing income tax returns in India.</p>
-                                <p>Transaction Cost Reductions: Transactions on stock exchanges in GIFT City are exempt from stamp duty and Securities Transaction Tax (STT), lowering overall investment costs.</p>
+                                <p style="font-size: 18px">Income Tax Exemptions: NRIs investing in Alternative Investment Funds (AIFs) within GIFT City can benefit from tax exemptions. If the investment fund deducts and remits income tax at the source, the investor is exempt from filing income tax returns in India.</p>
+                                <p style="font-size: 18px">Transaction Cost Reductions: Transactions on stock exchanges in GIFT City are exempt from stamp duty and Securities Transaction Tax (STT), lowering overall investment costs.</p>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button style="font-weight: bold;" class="accordion-button custom-collapse collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ifc-gift-collapseTwo" aria-expanded="false" aria-controls="ifc-gift-collapseTwo">
+                            <button style="font-weight: 600; font-size: 20px" class="accordion-button custom-collapse collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ifc-gift-collapseTwo" aria-expanded="false" aria-controls="ifc-gift-collapseTwo">
                                 Simplified Repatriation
                             </button>
                         </h2>
                         <div id="ifc-gift-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#ifc-gift">
                             <div class="accordion-body">
-                                <p>GIFT City's regulatory framework streamlines the repatriation process, allowing NRIs to transfer funds abroad with minimal bureaucratic hurdles. Financial institutions within the city are adept at handling such transactions efficiently. </p>
+                                <p  style="font-size: 18px">GIFT City's regulatory framework streamlines the repatriation process, allowing NRIs to transfer funds abroad with minimal bureaucratic hurdles. Financial institutions within the city are adept at handling such transactions efficiently. </p>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button style="font-weight: bold;" class="accordion-button custom-collapse collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ifc-gift-collapseThree" aria-expanded="false" aria-controls="ifc-gift-collapseThree">
+                            <button style="font-weight: 600; font-size: 20px" class="accordion-button custom-collapse collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ifc-gift-collapseThree" aria-expanded="false" aria-controls="ifc-gift-collapseThree">
                                 Diverse Investment Opportunities
                             </button>
                         </h2>
                         <div id="ifc-gift-collapseThree" class="accordion-collapse collapse" data-bs-parent="#ifc-gift">
                             <div class="accordion-body">
-                                <p>NRIs can access a broad spectrum of financial products, including equities, bonds, mutual funds, and other securities through the International Financial Services Centre (IFSC) in GIFT City. Recent regulatory reforms permit NRIs to have up to 100% aggregate contribution in certain investment vehicles, enhancing portfolio diversification.</p>
+                                <p  style="font-size: 18px">NRIs can access a broad spectrum of financial products, including equities, bonds, mutual funds, and other securities through the International Financial Services Centre (IFSC) in GIFT City. Recent regulatory reforms permit NRIs to have up to 100% aggregate contribution in certain investment vehicles, enhancing portfolio diversification.</p>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button style="font-weight: bold;" class="accordion-button custom-collapse collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ifc-gift-collapseFour" aria-expanded="false" aria-controls="ifc-gift-collapseFour">
+                            <button style="font-weight: 600; font-size: 20px" class="accordion-button custom-collapse collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ifc-gift-collapseFour" aria-expanded="false" aria-controls="ifc-gift-collapseFour">
                                 World-Class Infrastructure
                             </button>
                         </h2>
                         <div id="ifc-gift-collapseFour" class="accordion-collapse collapse" data-bs-parent="#ifc-gift">
                             <div class="accordion-body">
-                                <p>GIFT City boasts state-of-the-art infrastructure, including modern office spaces, residential complexes, and advanced technological amenities, providing a conducive environment for business and investment activities.</p>
+                                <p style="font-size: 18px">GIFT City boasts state-of-the-art infrastructure, including modern office spaces, residential complexes, and advanced technological amenities, providing a conducive environment for business and investment activities.</p>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button style="font-weight: bold;" class="accordion-button custom-collapse collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ifc-gift-collapseFive" aria-expanded="false" aria-controls="ifc-gift-collapseFive">
+                            <button style="font-weight: 600; font-size: 20px" class="accordion-button custom-collapse collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ifc-gift-collapseFive" aria-expanded="false" aria-controls="ifc-gift-collapseFive">
                                 Ease of Account Opening
                             </button>
                         </h2>
                         <div id="ifc-gift-collapseFive" class="accordion-collapse collapse" data-bs-parent="#ifc-gift">
                             <div class="accordion-body">
-                                <p>Banks in GIFT City facilitate the account opening process for NRIs, often offering online services that can be completed without physical presence in India. Required documents typically include valid passports, PAN cards, and proof of NRI status.</p>
+                                <p style="font-size: 18px">Banks in GIFT City facilitate the account opening process for NRIs, often offering online services that can be completed without physical presence in India. Required documents typically include valid passports, PAN cards, and proof of NRI status.</p>
                             </div>
                         </div>
                     </div>
                     
                     <div class="mt-4" style="margin-left: 5%;">
-                        <button class="custom-btn">Try Now !</button>
+                        <button class="custom-btn" style="cursor: pointer"
+                                onclick="topFunction();">Try Now !</button>
                     </div>
                 </div>
             </div>
@@ -782,12 +793,12 @@
     </div>
 </div>
 <!-- Alternatives -->
-<div class="container mt-5">
+<div class="container mt-5 block-6">
     <div class="row py-4">
         <div class="col-12 col-md-6">
-            <h1 style="color: #95B83E;">Alternatives</h1>
-            <h2>Advantages of Alternative Investments</h2>
-            <p class="py-2">
+            <h1 style="color: #95B83E; font-size: 36px" class="fw-semibold">Alternatives</h1>
+            <h2 style="font-size: 24px;">Advantages of Alternative Investments</h2>
+            <p class="py-2" style="font-size: 18px">
                 Alternative investments are assets other than traditional stocks, bonds, or cash. Common examples include private equity, hedge funds, venture capital, commodities, real estate, and collectibles like art or wine. These investments are often used to diversify portfolios and explore unique, high-return opportunities.
             </p>
 
@@ -795,13 +806,13 @@
                 <div class="accordion accordion-flush child-scroll" id="alternatives">
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button style="font-weight: bold;" class="accordion-button custom-collapse collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#alt-collapseOne" aria-expanded="false" aria-controls="alt-collapseOne">
+                            <button style="font-weight: 600; font-size: 20px" class="accordion-button custom-collapse collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#alt-collapseOne" aria-expanded="false" aria-controls="alt-collapseOne">
                                 Portfolio Diversification
                             </button>
                         </h2>
                         <div id="alt-collapseOne" class="accordion-collapse collapse" data-bs-parent="#alternatives">
                             <div class="accordion-body">
-                                <p>
+                                <p style="font-size: 18px">
                                     Alternatives have low correlation with traditional assets, reducing overall investment risk.
                                 </p>
                             </div>
@@ -809,13 +820,13 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button style="font-weight: bold;" class="accordion-button custom-collapse collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#alt-collapseTwo" aria-expanded="false" aria-controls="alt-collapseTwo">
+                            <button style="font-weight: 600; font-size: 20px" class="accordion-button custom-collapse collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#alt-collapseTwo" aria-expanded="false" aria-controls="alt-collapseTwo">
                                 Potential for Higher Returns
                             </button>
                         </h2>
                         <div id="alt-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#alternatives">
                             <div class="accordion-body">
-                                <p>
+                                <p style="font-size: 18px">
                                     They often offer greater growth opportunities, especially in niche markets.
                                 </p>
                             </div>
@@ -823,13 +834,13 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button style="font-weight: bold;" class="accordion-button custom-collapse collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#alt-collapseThree" aria-expanded="false" aria-controls="alt-collapseThree">
+                            <button style="font-weight: 600; font-size: 20px" class="accordion-button custom-collapse collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#alt-collapseThree" aria-expanded="false" aria-controls="alt-collapseThree">
                                 Access to Non-Traditional Markets
                             </button>
                         </h2>
                         <div id="alt-collapseThree" class="accordion-collapse collapse" data-bs-parent="#alternatives">
                             <div class="accordion-body">
-                                <p>
+                                <p style="font-size: 18px">
                                     Includes investments like private companies, infrastructure, or even crypto assets.
                                 </p>
                             </div>
@@ -837,20 +848,21 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button style="font-weight: bold;" class="accordion-button custom-collapse collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#alt-collapseFour" aria-expanded="false" aria-controls="alt-collapseFour">
+                            <button style="font-weight: 600; font-size: 20px" class="accordion-button custom-collapse collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#alt-collapseFour" aria-expanded="false" aria-controls="alt-collapseFour">
                                 Regulatory & Tax Benefits
                             </button>
                         </h2>
                         <div id="alt-collapseFour" class="accordion-collapse collapse" data-bs-parent="#alternatives">
                             <div class="accordion-body">
-                                <p>
+                                <p style="font-size: 18px">
                                     Structures like GIFT City provide favorable tax treatment and a global framework for such investments.
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="mt-4" style="margin-left: 5%;">
-                        <button class="custom-btn">Try Now !</button>
+                        <button class="custom-btn" style="cursor: pointer"
+                                onclick="topFunction();">Try Now !</button>
                     </div>
                 </div>
             </div>
@@ -861,20 +873,20 @@
     </div>
 </div>
 <!-- Overview -->
-<div class="container mt-5">
+<div class="container mt-5 block-7">
     <div class="row py-4">
         <div class="col-12 col-md-6" style="position: relative;">
-            <h3 style="color: #95B83E;">Overview</h3>
+            <h3 style="color: #95B83E; font-size: 24px">Overview</h3>
             <div style="position: absolute; top: 4%; left: 21%; background-color: #95B83E; height: 5px; width: 120px; border-radius: 5px;"></div>
-            <h2>
+            <h2 style="font-size: 36px " class="fw-semibold">
                 Why Choose <span style="color: #125488">Invest My Funds</span> For NRI Services?
             </h2>
 
             <div class="py-3">
-                <p>At InvestMyFunds, we offer a one-stop solution for all NRI financial needs, backed by a team of professional CAs and financial experts. From expert tax advisory and seamless compliance to tailored investment strategies and financial planning, we simplify complex regulations and provide personalized solutions. With over 5 years of industry expertise, a client-first approach, and a proven track record, we help NRIs achieve their financial goals with ease and confidence. Trust us for hassle-free, transparent, and comprehensive financial services under one roof.</p>
+                <p style="font-size: 18px">At InvestMyFunds, we offer a one-stop solution for all NRI financial needs, backed by a team of professional CAs and financial experts. From expert tax advisory and seamless compliance to tailored investment strategies and financial planning, we simplify complex regulations and provide personalized solutions. With over 5 years of industry expertise, a client-first approach, and a proven track record, we help NRIs achieve their financial goals with ease and confidence. Trust us for hassle-free, transparent, and comprehensive financial services under one roof.</p>
             </div>
         </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6 block-5">
             <img src="assets/overview_img.png" alt="Taxation" class="img-fluid">
         </div>
     </div>
@@ -892,8 +904,8 @@
 
             <!-- Form Column -->
             <div class="col-md-8 communication" style="color: white;">
-                <h1 class="fw-bold">Join Our NRI Community</h1>
-                <p>Become a member of our exclusive network to access premium services, expert consultations, and a wealth of resources tailored for NRIs.</p>
+                <h1 class="fw-semibold" style="font-size: 42px">Join Our NRI Community</h1>
+                <p style="font-size: 18px">Become a member of our exclusive network to access premium services, expert consultations, and a wealth of resources tailored for NRIs.</p>
 
                 <form class="mt-4" style="max-width: 80%;" id="contact2">
 
@@ -936,7 +948,7 @@
                     </div>
 
                     <div class="mt-4">
-                        <button type="submit" class="custom-btn">Submit</button>
+                        <button type="submit"   id="contact2_submit" class="custom-btn">Submit</button>
                     </div>
                 </form>
             </div>
@@ -946,63 +958,73 @@
 <!-- Our Services -->
 <div class="container mt-5">
     <div class="row">
-        <div class="col-24 text-center py-4">
-            <h1 class="py-2">Our Services</h1>
-            <p>Comprehensive tax consultation services tailored for NRIs, ensuring seamless compliance, expert guidance, and hassle-free solutions for all your cross-border tax needs.</p>
-        </div>
-    </div>
-    <div class="row justify-content-center g-4">
-        <div class="col-md-4 d-flex justify-content-center">
-            <div class="card custom-card">
-                <img src="assets/nri_taxation_img.png" class="img-fluid" alt="Card Image">
-                <div class="card-body">
-                    <h5 class="card-title">NRI Taxation</h5>
-                    <p class="card-text pt-3">Simplifying taxation complexities for NRIs with expert guidance on income, capital gains, and compliance.</p>
+        <div class="col-12 col-md-10 offset-md-1">
+            <div class="row justify-content-center">
+                <div class="col-10 text-center py-4">
+                    <h1 class="py-2 fw-semibold" style="font-size: 36px">Our Services</h1>
+                    <p style="font-size: 18px">Comprehensive tax consultation services tailored for NRIs, ensuring seamless compliance, expert guidance, and hassle-free solutions for all your cross-border tax needs.</p>
                 </div>
             </div>
-        </div>
-        <div class="col-md-4 d-flex justify-content-center">
-            <div class="card custom-card">
-                <img src="assets/gst_advisory_img.png" class="img-fluid" alt="Card Image">
-                <div class="card-body">
-                    <h5 class="card-title">GST Advisory</h5>
-                    <p class="card-text pt-3">Expert GST consultation to optimize compliance and maximize benefits.</p>
+            <div class="row justify-content-center g-4">
+                <div class="col-md-4 d-flex justify-content-center zoom-in">
+                    <div class="card custom-card ">
+                        <img src="assets/nri_taxation_img.png" class="img-fluid" alt="Card Image">
+                        <div class="card-body">
+                            <h5 class="card-title">NRI Taxation</h5>
+                            <p class="card-text">Simplifying taxation complexities for NRIs with expert guidance on
+                                income, capital gains, and compliance.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="col-md-4 d-flex justify-content-center">
-            <div class="card custom-card">
-                <img src="assets/nri_investment_img.png" class="img-fluid" alt="Card Image">
-                <div class="card-body">
-                    <h5 class="card-title">NRI Investment</h5>
-                    <p class="card-text pt-3">Tailored investment solutions for NRIs to grow and secure wealth globally.</p>
+                <div class="col-md-4 d-flex justify-content-center zoom-in">
+                    <div class="card custom-card">
+                        <img src="assets/gst_advisory_img.png" class="img-fluid" alt="Card Image">
+                        <div class="card-body">
+                            <h5 class="card-title">GST Advisory</h5>
+                            <p class="card-text">Expert GST consultation to optimize compliance and maximize
+                                benefits.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="col-md-4 d-flex justify-content-center">
-            <div class="card custom-card">
-                <img src="assets/nri_compliance_img.png" class="img-fluid" alt="Card Image">
-                <div class="card-body">
-                    <h5 class="card-title">NRI Compliance</h5>
-                    <p class="card-text pt-3">Ensuring seamless adherence to Indian regulatory requirements for NRIs.</p>
+                <div class="col-md-4 d-flex justify-content-center zoom-in">
+                    <div class="card custom-card">
+                        <img src="assets/nri_investment_img.png" class="img-fluid" alt="Card Image">
+                        <div class="card-body">
+                            <h5 class="card-title">NRI Investment</h5>
+                            <p class="card-text">Tailored investment solutions for NRIs to grow and secure wealth
+                                globally.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="col-md-4 d-flex justify-content-center">
-            <div class="card custom-card">
-                <img src="assets/risk_management_img.png" class="img-fluid" alt="Card Image">
-                <div class="card-body">
-                    <h5 class="card-title">Risk Management</h5>
-                    <p class="card-text pt-3">Crafting personalized financial plans to achieve your life and wealth goals.</p>
+                <div class="col-md-4 d-flex justify-content-center zoom-in">
+                    <div class="card custom-card">
+                        <img src="assets/nri_compliance_img.png" class="img-fluid" alt="Card Image">
+                        <div class="card-body">
+                            <h5 class="card-title">NRI Compliance</h5>
+                            <p class="card-text">Ensuring seamless adherence to Indian regulatory requirements for
+                                NRIs.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="col-md-4 d-flex justify-content-center">
-            <div class="card custom-card">
-                <img src="assets/financial_plan_img.png" class="img-fluid" alt="Card Image">
-                <div class="card-body">
-                    <h5 class="card-title">Financial Planning</h5>
-                    <p class="card-text pt-3">Mitigating financial risks with strategic and effective solutions</p>
+                <div class="col-md-4 d-flex justify-content-center zoom-in">
+                    <div class="card custom-card">
+                        <img src="assets/risk_management_img.png" class="img-fluid" alt="Card Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Risk Management</h5>
+                            <p class="card-text">Crafting personalized financial plans to achieve your life and
+                                wealth goals.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex justify-content-center zoom-in">
+                    <div class="card custom-card">
+                        <img src="assets/financial_plan_img.png" class="img-fluid" alt="Card Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Financial Planning</h5>
+                            <p class="card-text">Mitigating financial risks with strategic and effective
+                                solutions</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -1012,84 +1034,98 @@
 <div class="container-fluid mt-5 py-5" style="background-color:#F5F5F5;">
 <div class="container">
     <div class="row">
-        <div class="col-24 text-center py-4">
-            <h1 class="py-2">Trusted by our Client</h1>
-            <p>Experience the confidence of being Trusted By Our Clients as we prioritize integrity and reliability in every interaction.</p>
-        </div>
-    </div>
-    <div class="row justify-content-center g-4">
-        <div class="col-md-5">
-            <div class="card border-0 p-4 h-100" style="box-shadow: 0 0.5rem 1rem rgba(150, 184, 62, 0.534);">
-                <div class="d-flex align-items-center mb-3">
-                    <img src="assets/male_icon.svg" class="rounded-circle me-3" alt="User">
-                    <h5 class="fw-bold mb-0">Arihant Jain</h5>
+        <div class="col-12 col-md-10 offset-md-1">
+            <div class="row justify-content-center">
+                <div class="col-10 text-center py-4">
+                    <h1 class="py-2 fw-semibold" style="font-size: 36px">Trusted by our Client</h1>
+                    <p style="font-size: 18px;">Experience the confidence of being Trusted By Our Clients as we
+                        prioritize integrity and reliability in every interaction.</p>
                 </div>
-                <p style="color: #1F3864">
-                    One of the best advisors I came across. Mr. Prabhat and Mr. Vivek are wonderful individuals who completely understand your needs, give you ample time, and go the extra mile to provide excellent financial planning for you and your family.
-                </p>
             </div>
-        </div>
-        <div class="col-md-5">
-            <div class="card border-0 p-4 h-100" style="box-shadow: 0 0.5rem 1rem rgba(150, 184, 62, 0.534);">
-                <div class="d-flex align-items-center mb-3">
-                    <img src="assets/female_icon.svg" class="rounded-circle me-3" alt="User">
-                    <h5 class="fw-bold mb-0">Reshma Suresh</h5>
+            <div class="row justify-content-center g-4">
+                <div class="col-md-5 zoom-in-less">
+                    <div class="card border-0 p-4 h-100" style="box-shadow: 0 0.5rem 1rem rgba(150, 184, 62, 0.534);">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="assets/male_icon.svg" class="rounded-circle me-3" alt="User">
+                            <h5 class="fw-semibold mb-0" style="font-size: 20px">Arihant Jain</h5>
+                        </div>
+                        <p style="color: #1F3864;font-size: 16px">
+                            One of the best advisors I came across. Mr. Prabhat and Mr. Vivek are wonderful individuals
+                            who completely understand your needs, give you ample time, and go the extra mile to provide
+                            excellent financial planning for you and your family.
+                        </p>
+                    </div>
                 </div>
-                <p style="color: #1F3864">
-                    InvestMyFunds offers very honest and expert advice with very prompt service and follow up. I am really happy to have initiated my first mutual fund investment through their services. Very professional and courteous. Highly recommended!!
-                </p>
-            </div>
-        </div>
-        <div class="col-md-5">
-            <div class="card border-0 p-4 h-100" style="box-shadow: 0 0.5rem 1rem rgba(150, 184, 62, 0.534);">
-                <div class="d-flex align-items-center mb-3">
-                    <img src="assets/male_icon.svg" class="rounded-circle me-3" alt="User">
-                    <h5 class="fw-bold mb-0">Pankaj Chaudhary</h5>
+                <div class="col-md-5 zoom-in-less">
+                    <div class="card border-0 p-4 h-100" style="box-shadow: 0 0.5rem 1rem rgba(150, 184, 62, 0.534);">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="assets/female_icon.svg" class="rounded-circle me-3" alt="User">
+                            <h5 class="fw-semibold mb-0" style="font-size: 20px">Reshma Suresh</h5>
+                        </div>
+                        <p style="color: #1F3864;font-size: 16px">
+                            InvestMyFunds offers very honest and expert advice with very prompt service and follow up. I
+                            am really happy to have initiated my first mutual fund investment through their services.
+                            Very professional and courteous. Highly recommended!!
+                        </p>
+                    </div>
                 </div>
-                <p style="color: #1F3864">
-                    Extremely happy with the advice and service provided by Invest My Funds. Financial advice with detailed explanation is very much appreciated. I highly recommend Invest My Funds for mutual fund investments.
-                </p>
-            </div>
-        </div>
-        <div class="col-md-5">
-            <div class="card  p-4 h-100" style="box-shadow: 0 0.5rem 1rem rgba(150, 184, 62, 0.534);">
-                <div class="d-flex align-items-center mb-3">
-                    <img src="assets/male_icon.svg" class="rounded-circle me-3" alt="User">
-                    <h5 class="fw-bold mb-0">Sundeep Khurana</h5>
+                <div class="col-md-5 zoom-in-less">
+                    <div class="card border-0 p-4 h-100" style="box-shadow: 0 0.5rem 1rem rgba(150, 184, 62, 0.534);">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="assets/male_icon.svg" class="rounded-circle me-3" alt="User">
+                            <h5 class="fw-semibold mb-0" style="font-size: 20px">Pankaj Chaudhary</h5>
+                        </div>
+                        <p style="color: #1F3864;font-size: 16px">
+                            Extremely happy with the advice and service provided by Invest My Funds. Financial advice
+                            with detailed explanation is very much appreciated. I highly recommend Invest My Funds for
+                            mutual fund investments.
+                        </p>
+                    </div>
                 </div>
-                <p style="color: #1F3864">
-                    Very well professionally managed company . Being transparent and making people aware of stock market is focus area for InvestMyfund. I attended one such session as well and had great experience.
-                </p>
+                <div class="col-md-5 zoom-in-less">
+                    <div class="card  p-4 h-100" style="box-shadow: 0 0.5rem 1rem rgba(150, 184, 62, 0.534);">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="assets/male_icon.svg" class="rounded-circle me-3" alt="User">
+                            <h5 class="fw-semibold mb-0 " style="font-size: 20px">Sundeep Khurana</h5>
+                        </div>
+                        <p style="color: #1F3864;font-size: 16px">
+                            Very well professionally managed company . Being transparent and making people aware of
+                            stock market is focus area for InvestMyfund. I attended one such session as well and had
+                            great experience.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
 </div>
 <!-- Contact Us -->
-<div style="background-color: #203864; color: #FFFFFF;" class="container-fluid">
+<div style="background-color: #203864; color: #FFFFFF;" class="container-fluid ">
     <div class="container text-center py-4" style="margin: auto;">
-        <h4>Contact Us</h4>
+        <h4 style="font-size: 24px;">Contact Us</h4>
         <div class="row justify-content-center pt-4" style="font-size: 14px;">
             <div class="col-sm-4">
                 <div style="display: flex; gap: 8px">
                     <img src="assets/call.svg" alt="rights">
-                    <div>+91-9198666667</div>
+                    <p style="font-size: 16px; margin-bottom: 0">+91 8743970033</p>
                 </div>
                 <div style="display: flex; gap: 8px" class="mt-2">
                     <img src="assets/mail.svg" alt="rights">
-                    <div>info@plutonic.co.in</div>
+                    <p style="font-size: 16px; margin-bottom: 0">investmyfundsonline@gmail.com</p>
                 </div>
             </div>
             <div class="col-sm-4">
                 <div style="display: flex; gap: 8px">
                     <img src="assets/rights_icon.svg" alt="rights">
-                    <div>plutonic services All rights reserved</div>
+                    <p style="font-size: 16px; margin-bottom: 0">InvestMyFunds. All rights reserved.</p>
                 </div>
             </div>
             <div class="col-sm-3">
                 <div style="display: flex; gap: 8px; text-align: left; align-items: start">
                     <img src="assets/location.svg" alt="rights">
-                    <span>XYZ-C, Business Habitat, Noida Sector 62, Delhi-201014</span>
+                    <p style="font-size: 16px; margin-bottom: 0">8th floor, 812 Laxmi Deep Building, 9 District Centre,
+                    Vikas Marg Laxmi Nagar, Delhi- 110092</p>
                 </div>
             </div>
         </div>
@@ -1101,5 +1137,6 @@
 <script src="js/script.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/country.js"></script>
+<script src="js/index.js"></script>
 </body>
 </html>

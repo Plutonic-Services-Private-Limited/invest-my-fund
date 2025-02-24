@@ -1,3 +1,6 @@
+body{
+    font-family: 'Montserrat';
+}
 .hero-card {
     background: url('../assets/hero_bg_img.png') no-repeat center center;
      background-size: cover;
@@ -119,12 +122,14 @@
     padding: 20px;
 }
 .custom-card .card-title {
-    font-weight: bold;
+    font-weight:600;
     color: #222;
+    font-size: 20px;
 }
 .custom-card .card-text {
     color: #555;
     line-height: 1.8;
+    font-size: 16px;
 }
 
 /*tabs*/
@@ -176,7 +181,7 @@ div::-webkit-scrollbar {
 
 .parent-scroll {
     overflow: hidden; 
-    height: 40vh;
+    height: 45vh;
 }
 
 .child-scroll {
@@ -216,4 +221,54 @@ div::-webkit-scrollbar {
 
 .inputState option {
     color: black
+}
+/*animation*/
+
+.block-1 {
+    --animate-duration: 1000ms;
+    --animate-delay: 2s;
+}
+
+.block-2 {
+    --animate-duration: 2000ms;
+    --animate-delay: 2s;
+}
+
+.block-3 {
+    --animate-duration: 2000ms;
+    --animate-delay: 2s;
+}
+
+.block-5 {
+    --animate-duration: 2000ms;
+    --animate-delay: 2s;
+}
+.block-4 {
+    --animate-duration: 2000ms;
+    --animate-delay: 2s;
+}
+
+.block-6 {
+    --animate-duration: 2000ms;
+    --animate-delay: 2s;
+}
+.block-7 {
+    --animate-duration: 2000ms;
+    --animate-delay: 2s;
+}
+
+.zoom-in {
+    transition: transform .2s;
+}
+
+.zoom-in:hover {
+    transform: scale(1.1);
+}
+
+.zoom-in-less {
+    transition: transform .2s;
+}
+
+.zoom-in-less:hover {
+    transform: scale(1.05);
 }
